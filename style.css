@@ -175,12 +175,26 @@
   .header-contact-link {
     font-size: 12px;
   }
+  @media (max-width: 768px) {
+  .In-stock {
+    flex: 0 0 100%;
+    margin-right: 0;
+  }
+
+  .Stock-text {
+    width: auto;
+    height: auto;
+  }
+}
+.header-flex {
+  flex-wrap: wrap; /* дозволяє перенос елементів на новий рядок */
+}
+
 }
 body {
-  background-image: url('./img/Фон.jpg'); /* твоя картинка */
-  background-size: cover;      /* Розтягнути на весь екран */
-  background-position: center; /* Центрувати */
+  background-image: url('./img/Фон.jpg');
+  background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
-  background-attachment: fixed; /* Залишається на місці при скролі */
-
+  background-attachment: fixed;
 }

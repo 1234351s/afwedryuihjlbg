@@ -234,3 +234,27 @@ html, body {
   max-width: 100%;
   overflow-x: hidden;
 }
+
+.logo-svg {
+  width: 200px;     
+  height: auto;
+  margin-right: 8px;   
+  display: block;
+  margin: 0 auto;
+
+}
+.logo-svg-2 {
+    width: 200px;     
+  height: auto;
+  margin-right: 8px;   
+  display: block;
+  margin: 0 auto; 
+}
+.bottom-left-logo {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  width: 80px; 
+  height: auto;
+  z-index: 999; 
+}

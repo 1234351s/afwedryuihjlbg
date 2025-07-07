@@ -204,3 +204,7 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}

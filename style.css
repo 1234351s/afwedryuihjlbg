@@ -186,6 +186,7 @@
   .header-contact-link {
     font-size: 12px;
   }
+  
 @media (max-width: 768px) {
   .In-stock {
     flex: 0 0 100%;
@@ -205,6 +206,23 @@
 }
 
 }
+@media (max-width: 768px) {
+  .header {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .header-flex {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .header-nav-list,
+  .header-contact-list {
+    align-items: flex-start;
+  }
+}
+
 body {
   background-image: url('./img/Фон.jpg');
   background-size: cover;

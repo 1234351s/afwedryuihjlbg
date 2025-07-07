@@ -1,5 +1,5 @@
 .container {
-  max-width: 1200px; /* или 1440px в зависимости от дизайна */
+  max-width: 1200px; 
   margin: 0 auto;
   padding: 0 20px;
     font-family: Montserrat Alternates;
@@ -84,6 +84,15 @@
 .black {
     color: rgb(0, 0, 0);
 }
+.header-flex {
+  flex-wrap: wrap; 
+}
+.header-logo {
+
+  font-size: 22px;
+  text-align: center;
+}
+
 
 /* header end */
 /* Stock */
@@ -185,9 +194,6 @@
     width: auto;
     height: auto;
   }
-}
-.header-flex {
-  flex-wrap: wrap; /* дозволяє перенос елементів на новий рядок */
 }
 
 }

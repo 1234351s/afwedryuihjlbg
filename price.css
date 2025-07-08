@@ -1,0 +1,13 @@
+.Price-p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px; 
+  text-align: center;
+}
+
+.Price-p {
+  font-size: 18px;
+  font-weight: 600;
+  color: #000;
+}

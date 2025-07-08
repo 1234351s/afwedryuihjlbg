@@ -1,7 +1,7 @@
 .side-cart {
   position: fixed;
   top: 0;
-  right: -320px; /* прихований спочатку */
+  right: -320px; 
   width: 300px;
   height: 100%;
   background-color: #fff9fc;
@@ -82,7 +82,7 @@
   box-sizing: border-box;
 }
 .total-line {
-  margin-bottom: 5px; /* відступ від суми до кнопки */
+  margin-bottom: 5px; 
 }
 
 .checkout-btn {
@@ -96,10 +96,13 @@
   border: none;
   border-radius: 6px;
   cursor: pointer;
-  margin-top: 0; /* прибираємо зайвий верхній відступ */
+  margin-top: 0; 
   transition: background-color 0.3s ease;
 }
 
 .checkout-btn:hover {
   background-color: #c55eb0;
+}
+.Product-name {
+  color: black;
 }

@@ -3,6 +3,7 @@
   margin: 0 auto;
   padding: 0 20px;
     font-family: Montserrat Alternates;
+
 }
 
 /* header */
@@ -148,19 +149,14 @@
 .Info-text {
   text-align: center;
   font-size: 20px;
+   background-color: rgba(255, 255, 255, 0.40);
 }
 /* info end */
  @media (max-width: 1024px) {
-    .Adaptive-media {
-        color: white;
-
-    }
+   
   }
 @media (max-width: 480px) {
-    .Adaptive-media{
-  color: white;
 
-    }
   }
 
 body {

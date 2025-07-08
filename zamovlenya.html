@@ -1,14 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script type="module" src="./java.js"></script>
-    <link rel="stylesheet" href="./zamovlenya.css">
-        <link rel="stylesheet" href="./style.css" />
-    <link rel="stylesheet" href="./normalize.css" />
-            <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./zamovlenya.css">
+  <script type="module" src="./javascript.js"></script>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./normalize.css">
 </head>
 <body>
    <header class="header">
@@ -33,7 +32,10 @@
         <ul class="header-contact header-contact-list">
           <li class="header-contact-item">
     
-            <a href="Diplomate.ua@gmail.com" class="header-contact-link">
+            <a href="mailto:Diplomate.ua@gmail.com" class="header-contact-link">
+
+
+
               @gmail</a
             >
           </li>
@@ -48,44 +50,154 @@
         </ul>
       </div>
     </header>  
-<form action="https://getform.io/f/bwnwoxea" method="POST" class="order-form">
-  <h2>Зробити замовлення</h2>
+<div class="product-grid">
+  <div class="product" data-name=" Спартак" data-price="85">
+    <img class="" src="./img/Спартак.jpg">
+    <h3>Спартак</h3>
+    <button class="add-to-cart">Додати</button>
+  </div>
 
-  <input type="text" name="name" placeholder="Ваше ім’я" required>
-  <input type="tel" name="phone" placeholder="Телефон" required>
-    <input type="text" name="Кол-во" placeholder="Кол-во" required>
+  <div class="product" data-name="Чізкейк Снікерс" data-price="85">
+    <img src="./img/Оксамит.jpg" >
+    <h3>Оксамит</h3>
+    <button class="add-to-cart">Додати</button>
+  </div>
 
-  <label for="order">Що бажаєте замовити?</label>
-  <select name="order" id="order" required>
-    <option value="">Оберіть товар...</option>
-    <option value="Спартак">Cпартак</option>
-    <option value="Оксамит">Оксамит</option>
-    <option value="Чізкейк снікерс">Чізкейк снікерс</option>
-    <option value="Чізкейк Орео">Чізкейк "Орео"</option>
-    <option value="Нутела">Нутела</option>
-    <option value="Чізкейк Сатін">Чізкейк "Сатін"</option>
-    <option value="Наполеон">Наполеон</option>
-    <option value="Чорний ліс">Чорний ліс</option>
-     <option value="Меренговий рулет">Меренговий рулет</option>
-     <option value="Торт Снікерс">Торт "Снікерс"</option>
-     <option value="Чізкейк Нью-Йорк">Чізкейк Нью-Йорк</option>
-     <option value="Медовик">Медовик</option>
-         <option value="Павлова">Павлова</option>
-             <option value="Цитрон">Цитрон</option>
-    <option value="Дубайський чізкейк">Дубайський чізкейк</option>
-    <option value="Стакан Снікерс">Стакан Снікерс</option>
-    <option value="Торт поляна ">Торт поляна </option>
-    <option value="Естерхазі">Естерхазі</option>
-    <option value="Сан сьебастьян">Сан Сьебастьян</option>
+  <div class="product" data-name="Чізкейк Снікерс" data-price="85">
+    <img src="./img/Чізкейк снікерс.jpg" >
+    <h3>Чізкейк "Снікерс"</h3>
+    <button class="add-to-cart">Додати</button>
+  </div>
+
+  <div class="product" data-name="Чізкейк Орео" data-price="85">
+    <img src="./img/Чізкейк Орео.jpg" alt="">
+    <h3>Чізкейк "Орео"</h3>
+    <button class="add-to-cart">Додати</button>
+  </div>
+
+  <div class="product" data-name="Нутела" data-price="85">
+    <img src="./img/Нутела.jpg" alt="">
+    <h3>Нутела</h3>
+    <button class="add-to-cart">Додати</button>
+  </div>
+
+  <div class="product" data-name="Вершкова Ягідка" data-price="85">
+    <img src="./img/Вершкова ягідка.jpg" alt="">
+    <h3>Вершкова Ягідка</h3>
+    <button class="add-to-cart">Додати</button>
+  </div>
+
+  <div class="product" data-name="Чізкейк Сатін" data-price="90">
+    <img src="./img/Чізкейк сатін.jpg" alt="">
+    <h3>Чізкейк "Сатін"</h3>
+    <button class="add-to-cart">Додати</button>
+  </div>
+
+  <div class="product" data-name="Наполеон" data-price="75">
+    <img src="./img/Наполеон.jpg" alt="">
+    <h3>Наполеон</h3>
+    <button class="add-to-cart">Додати</button>
+  </div>
+
+  <div class="product" data-name="Чорний ліс" data-price="85">
+    <img src="./img/Чорний ліс.jpg" alt="">
+    <h3>Чорний ліс</h3>
+    <button class="add-to-cart">Додати</button>
+  </div>
+
+  <div class="product" data-name="Меренговий рулет" data-price="85">
+    <img src="./img/Меренговий рулет.jpg" alt="">
+    <h3>Меренговий рулет</h3>
+    <button class="add-to-cart">Додати</button>
+  </div>
+
+  <div class="product" data-name="Торт Снікерс" data-price="80">
+    <img src="./img/Торт Снікерс.jpg" alt="">
+    <h3>Торт "Снікерс"</h3>
+    <button class="add-to-cart">Додати</button>
+  </div>
+
+  <div class="product" data-name="Чізкейк Нью-Йорк" data-price="80">
+    <img src="./img/Чізкейк Нью-Йорк.jpg" alt="">
+    <h3>Чізкейк Нью-Йорк</h3>
+    <button class="add-to-cart">Додати</button>
+  </div>
+
+  <div class="product" data-name="Медовик" data-price="70">
+    <img src="./img/Медовик.jpg" alt="">
+    <h3>Медовик</h3>
+    <button class="add-to-cart">Додати</button>
+  </div>
+
+  <div class="product" data-name="Павлова" data-price="95">
+    <img src="./img/Павлова.jpg" alt="">
+    <h3>Павлова</h3>
+    <button class="add-to-cart">Додати</button>
+  </div>
+
+  <div class="product" data-name="Цитрон" data-price="90">
+    <img src="./img/Цитрон.jpg" alt="">
+    <h3>Цитрон</h3>
+    <button class="add-to-cart">Додати</button>
+  </div>
+
+  <div class="product" data-name="Дубайський чізкейк" data-price="190">
+    <img src="./img/Дубайський чізкейк.jpg" alt="">
+    <h3>Дубайський чізкейк</h3>
+    <button class="add-to-cart">Додати</button>
+  </div>
+
+  <div class="product" data-name="Стакан Снікерс" data-price="85">
+    <img src="./img/Стакан снікерс.jpg" alt="">
+    <h3>Стакан Снікерс</h3>
+    <button class="add-to-cart">Додати</button>
+  </div>
+
+  <div class="product" data-name="Торт поляна " data-price="400">
+    <img src="./img/Торт поляна.jpg" alt="">
+    <h3>Торт поляна </h3>
+    <button class="add-to-cart">Додати</button>
+  </div>
+
+  <div class="product" data-name="Естерхазі" data-price="85">
+    <img src="./img/Естерхазі.jpg" alt="">
+    <h3>Естерхазі</h3>
+    <button class="add-to-cart">Додати</button>
+  </div>
 
 
+</div>
 
-  </select>
-
-  <button type="submit">Відправити</button>
+<!-- Бічний кошик -->
+<div id="side-cart" class="side-cart">
+  <span id="close-cart" class="close">×</span>
+  <h2>Кошик</h2>
+  <ul id="cart-items"></ul>
+  <p>Сума: <span id="total">0</span> грн</p>
+  <form action="https://getform.io/f/bwnwoxea" method="POST" id="order-form" class="order-form" style="display: none;">
+  <input type="hidden" name="order" id="order-input">
+  <input type="hidden" name="total" id="total-input">
 </form>
 
+  <button id="checkout-btn" class="checkout-btn">Замовити</button>
+  <!-- У списку товарів у кошику тепер кожен елемент містить +/- -->
+<ul id="cart-items"></ul>
 
+
+</div>
+<footer class="site-footer">
+  <div class="container footer-flex">
+    <div class="footer-logo">
+      <span class="blue">Dip</span><span class="black">lomat_UA</span>
+    </div>
+    <ul class="footer-nav">
+      <li><a href="https://t.me/+SpICxk1LM_8HgINV" target="_blank">Telegram</a></li>
+      <li><a href="https://www.instagram.com/diplomate_ua" target="_blank">Instagram</a></li>
+      <li><a href="mailto:Diplomate.ua@gmail.com">Gmail</a></li>
+      <li><a href="tel:+380953524772">+380953524772</a></li>
+    </ul>
+
+  </div>
+</footer>
 </body>
-
 </html>

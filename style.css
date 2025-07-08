@@ -150,87 +150,18 @@
   font-size: 20px;
 }
 /* info end */
-@media (max-width: 1024px) {
-  .header-nav-list {
-    margin-right: 100px;
-  }
+ @media (max-width: 1024px) {
+    .Adaptive-media {
+        color: white;
 
-  .header-logo {
-    margin-right: 40px;
-    font-size: 22px;
+    }
   }
-
-  .header-nav-item,
-  .header-contact-link {
-    margin-right: 24px;
-  }
-}
-
-@media (max-width: 768px) {
-  .header-flex {
-    flex-direction: column;
-    align-items: flex-start;
-    height: auto;
-    padding: 16px 0;
-  }
-
-  .header-nav-list,
-  .header-contact-list {
-    flex-direction: column;
- 
-    gap: 16px;
-  }
-
-  .header-logo {
-    margin: 0 0 16px 0;
-  }
-}
-
 @media (max-width: 480px) {
-  .header-logo {
-    font-size: 20px;
-  }
+    .Adaptive-media{
+  color: white;
 
-  .header-nav-link,
-  .header-contact-link {
-    font-size: 12px;
+    }
   }
-  
-@media (max-width: 768px) {
-  .In-stock {
-    flex: 0 0 100%;
-    margin-left: 20px;     
-    margin-right: 0;
-  }
-
-  .Stock {
-    justify-content: flex-start;
-    padding-left: 0;
-  }
-
-  .Stock-text {
-    width: auto;
-    height: auto;
-  }
-}
-
-}
-@media (max-width: 768px) {
-  .header {
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-
-  .header-flex {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .header-nav-list,
-  .header-contact-list {
-    align-items: flex-start;
-  }
-}
 
 body {
   background-image: url('./img/Фон.jpg');

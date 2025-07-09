@@ -211,6 +211,160 @@
 }
 
 
+@media (max-width: 480px) {
+  .container {
+    padding: 0 10px;
+  }
+
+  .header {
+    flex-direction: column;
+    height: auto;
+    text-align: center;
+    padding: 12px 0;
+  }
+
+  .header-logo {
+    font-size: 20px;
+    margin: 0 auto;
+  }
+
+  .header-nav-list,
+  .header-contact-list {
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    margin: 0;
+  }
+
+  .header-nav-link,
+  .header-contact-link {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .Stock-title,
+  .Info-title,
+  .footer-logo {
+    font-size: 18px;
+    padding: 8px;
+  }
+
+  .Stock-text {
+    height: auto;
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  .In-stock {
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+
+  .bottom-left-logo {
+    width: 60px;
+    bottom: 12px;
+    left: 12px;
+  }
+
+  .footer-copy {
+    font-size: 12px;
+  }
+
+  .footer-nav {
+    gap: 12px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .footer-nav a {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .container {
+    padding: 0 16px;
+  }
+
+  .header-logo {
+    font-size: 22px;
+  }
+
+  .header-nav-link,
+  .header-contact-link {
+    font-size: 15px;
+  }
+
+  .Stock-title,
+  .Info-title {
+    font-size: 20px;
+  }
+
+  .In-stock {
+    flex-basis: calc((100% - 30px) / 2);
+  }
+
+  .Stock-text {
+    font-size: 16px;
+  }
+
+  .footer-logo {
+    font-size: 22px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .container {
+    max-width: 960px;
+    padding: 0 20px;
+  }
+
+  .In-stock {
+    flex-basis: calc((100% - 60px) / 3);
+  }
+
+  .Stock-title,
+  .Info-title {
+    font-size: 22px;
+  }
+}
+
+
+@media (min-width: 1025px) {
+  .container {
+    max-width: 1200px;
+  }
+
+  .Stock-title,
+  .Info-title {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 480px) {
+  .Stock-text {
+    font-size: 13px;
+    line-height: 1.4;
+  }
+
+  .Stock-title,
+  .Info-title,
+  .footer-logo {
+    font-size: 16px;
+  }
+
+  .In-stock img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+.In-stock img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
 body {
   background-image: url('./img/Фон.jpg');
   background-size: cover;

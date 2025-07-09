@@ -188,12 +188,22 @@
   <h2>Кошик</h2>
   <ul id="cart-items"></ul>
   <p>Сума: <span id="total">0</span> грн</p>
-  <form action="https://getform.io/f/ayvyzejb" method="POST" id="order-form" class="order-form" style="display: none;">
-  <input type="hidden" name="order" id="order-input">
-  <input type="hidden" name="total" id="total-input">
-</form>
 
-  <button id="checkout-btn" class="checkout-btn">Замовити</button>
+ 
+  <form action="https://getform.io/f/ayvyzejb" method="POST" id="order-form" class="order-form">
+    <input type="hidden" name="order" id="order-input">
+    <input type="hidden" name="total" id="total-input">
+
+    <label for="name">Ім’я:</label>
+    <input type="text" id="name" name="name" required placeholder="Ваше ім’я">
+
+    <label for="phone">Телефон:</label>
+    <input type="tel" id="phone" name="phone" required placeholder="+380XXXXXXXXX">
+
+    <button id="checkout-btn" class="checkout-btn" type="submit">Замовити</button>
+  </form>
+
+
 
 <ul id="cart-items"></ul>
 

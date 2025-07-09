@@ -11,3 +11,15 @@
   font-weight: 600;
   color: #000;
 }
+
+.thumb > img {
+  display: block;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.thumb {
+  height: 120px;
+  width: 120px;
+}

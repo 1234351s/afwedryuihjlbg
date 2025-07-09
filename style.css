@@ -114,6 +114,7 @@
   flex-wrap: wrap;
   padding: 0;
   list-style: none;
+  gap: 30px;
 }
 
 .In-stock{
@@ -125,9 +126,7 @@
 }
 
 
-.In-stock:not(:nth-child(3n)) {
-  margin-right: 30px;
-}
+
 .Stock-text {
   width: 366px;
   height: 150px;
@@ -152,7 +151,7 @@
    background-color: rgba(255, 255, 255, 0.40);
 }
 /* info end */
-@media (max-width: 680px) {
+@media (max-width: 380px) {
   .header-contact-list {
     flex-direction: column;
     align-items: center;
@@ -308,8 +307,7 @@ html, body {
   padding-top: 3px;
 
     text-align: center;
-  font-size: 24px;
-  font-weight: 600;
+
   margin: 24px auto;
 
   background-color: rgba(255, 255, 255, 0.6);
